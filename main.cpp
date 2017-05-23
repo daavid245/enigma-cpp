@@ -1,4 +1,4 @@
-#include "includes/enigma.hpp"
+#include "enigma.hpp"
 
 int main(int argc, char** argv)
 {
