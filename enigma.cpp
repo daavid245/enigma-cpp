@@ -41,6 +41,8 @@ CEnigma::CEnigma(std::string filename)
 
 std::string CEnigma::cipher(std::string plain)
 {
+	for(int i = 0; i < plain.length(); i++) plain[i] = toupper(plain[i]);
+	
 	std::string cipher = "";
 	
 	for (const char& letter : plain) {
